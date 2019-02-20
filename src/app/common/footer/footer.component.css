@@ -1,0 +1,10 @@
+mat-card{
+    height: 300px;
+    background-color: black;
+}
+mat-toolbar{
+    background-color: black;
+}
+span{
+    color:white;
+}

@@ -1,0 +1,16 @@
+<mat-toolbar color="primary" class="col-sm-12" >
+  <mat-toolbar-row>  
+    <div class="topnav" id="myTopnav">
+          <a href="#home" class="active" [routerLink]="['']"><i class="material-icons">
+            home</i>
+            Home</a>
+          <a href="#news">{{effective}}</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a [routerLink]="['/ourwork']">Gallery</a>
+    </div>
+    <button mat-raised-button [routerLink]="['/register-form']">Driver</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+

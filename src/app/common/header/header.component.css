@@ -1,0 +1,40 @@
+.mat-tab-group {
+    margin-bottom: 48px;
+  }
+
+  .topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  transition:width 1px round 1s;
+}
+
+.active {
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+button{
+  float:right;
+  right: -600px;
+  background-color:pink;
+}
+
+mat-toolbar{
+  width: 100%;
+  display: flex;
+}
